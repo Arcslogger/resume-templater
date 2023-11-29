@@ -1,0 +1,83 @@
+{
+  "experience": [
+    {
+			"include": true,
+      "organization": "ETHGlobal",
+      "position": "Fullstack Engineering Intern",
+      "duration": "Sept - Dec 2023",
+      "technologies": "React, TypeScript, Apollo GraphQL, PostgreSQL, Prisma, Next.js 13",
+      "responsibilities": [
+        "Automated sponsorship prize creation using custom image generation implemented through React, Prisma, and Open Graph, reducing time spent on internal workloads by > 90%",
+        "Consolidated 3 separate ticketed products into a unified event pass, increasing attendee check-in speed by 60%",
+        "Developed and launched a forum displaying 200+ community side events to increase attendance by 30%",
+        "Refactored forms to use React Hook Form and a custom component library to remove 10k+ lines of redundant code"
+      ]
+    },
+    {
+      "organization": "ETHGlobal",
+      "position": "Frontend Engineering Intern",
+      "duration": "Jan - Apr 2023",
+      "technologies": "React, Tailwind, TypeScript, Node.js, Figma, Linear",
+      "responsibilities": [
+        "Designed and implemented a new dashboard navigation system using React's Context API, Reducers, and Apollo GraphQL, shipped to 10k+ users over 30 products and reduced project submission delays by over 80%",
+        "Developed and deployed ethglobal.com/perks, soft-launching with over 100+ initial signups",
+        "Created project outlines, case studies, and user flows in Figma and Linear, reducing development time by 50%"
+      ]
+    },
+    {
+      "organization": "Hack the North",
+      "position": "Graphics Designer",
+      "duration": "Mar - Sep 2022",
+      "technologies": "Figma, Procreate, Adobe Photoshop",
+      "responsibilities": [
+        "Collaborated with engineers and product vendors to deliver apparel and poster designs for over 1000+ attendees",
+        "Created social media posts and website hero illustrations seen by 80k+ unique visitors from 100+ countries"
+      ]
+    },
+    {
+      "organization": "Ontario Institute for Cancer Research",
+      "position": "Frontend Engineering Intern",
+      "duration": "May - Aug 2022",
+      "technologies": "Typescript, Tailwind, Spring Boot, Java, REST, Figma",
+      "responsibilities": [
+        "Designed and built a user interface that streamlines internal operation procedures using Typescript & Figma, reducing time spent on quality control from 3 hours to < 5 minutes",
+        "Implemented filtering and sorting APIs in Spring Boot to create high-fidelity dashboard viewing controls",
+        "Collaborated with 10 other lab technicians to conduct user research on future project requirements and scope"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lodestone",
+			"link": "https://github.com/Lodestone-Team/lodestone",
+      "description": "Game server hosting wrapper",
+      "technologies": "Figma, React, TanStack Router, Storybook",
+      "highlights": [
+        "Created Compass DLS, a comprehensive design system with over 100+ components and 40+ styles",
+        "Implemented React components with Tailwind and Storybook, and helped QC over 30 dashboard pages",
+        "Led initial launch marketing, gaining over 500+ Github stars and 100+ regular users within 6 months"
+      ]
+    },
+    {
+      "name": "Timeline",
+			"link": "https://github.com/Arcslogger/TimeLine",
+      "description": "Business Wait-time indicator",
+      "technologies": "Python, Flask, Javascript, HTML/CSS",
+      "highlights": [
+        "A Javascript web app that uses crowdsourced foot traffic data to display businesses with minimal wait times",
+        "Designed the logo and branding using Procreate to win the Explore Hacks 2021 Runner-Up out of 58 teams",
+        "Optimized Google Places API backend calls to only fetch necessary data to reduce response time by ~50%"
+      ]
+    },
+    {
+      "name": "S.U.S Police Discord Bot",
+			"link": "https://github.com/Arcslogger/S.U.S-Police-Bot",
+      "description": "Alternate reality game",
+      "technologies": "discord.py, JSON, AWS",
+      "highlights": [
+        "A Python discord bot used to host an alternate reality game serving 200+ users",
+        "Assets developed in Procreate and deployed through AWS EC2, with JSON files used to store guild and user data"
+      ]
+    }
+  ]
+}
