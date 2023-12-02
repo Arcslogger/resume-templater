@@ -3,17 +3,17 @@
     {
 			"include": true,
       "organization": "ETHGlobal",
-      "position": "Fullstack Engineering Intern",
       "duration": "Sept - Dec 2023",
       "technologies": "React, TypeScript, Apollo GraphQL, PostgreSQL, Prisma, Next.js 13",
       "responsibilities": [
-        "Automated sponsorship prize creation using custom image generation implemented through React, Prisma, and Open Graph, reducing time spent on internal workloads by > 90%",
+        "Automated sponsorship prize creation using custom image generation implemented through React, Prisma, and Open Graph, reducing time spent on internal workloads by **>90%**",
         "Consolidated 3 separate ticketed products into a unified event pass, increasing attendee check-in speed by 60%",
         "Developed and launched a forum displaying 200+ community side events to increase attendance by 30%",
         "Refactored forms to use React Hook Form and a custom component library to remove 10k+ lines of redundant code"
       ]
     },
     {
+			"include": true,
       "organization": "ETHGlobal",
       "position": "Frontend Engineering Intern",
       "duration": "Jan - Apr 2023",
@@ -25,6 +25,7 @@
       ]
     },
     {
+			"include": true,
       "organization": "Hack the North",
       "position": "Graphics Designer",
       "duration": "Mar - Sep 2022",
@@ -35,6 +36,7 @@
       ]
     },
     {
+			"include": true,
       "organization": "Ontario Institute for Cancer Research",
       "position": "Frontend Engineering Intern",
       "duration": "May - Aug 2022",
@@ -48,6 +50,7 @@
   ],
   "projects": [
     {
+			"include": true,
       "name": "Lodestone",
 			"link": "https://github.com/Lodestone-Team/lodestone",
       "description": "Game server hosting wrapper",
@@ -59,6 +62,7 @@
       ]
     },
     {
+			"include": true,
       "name": "Timeline",
 			"link": "https://github.com/Arcslogger/TimeLine",
       "description": "Business Wait-time indicator",
@@ -70,6 +74,7 @@
       ]
     },
     {
+			"include": true,
       "name": "S.U.S Police Discord Bot",
 			"link": "https://github.com/Arcslogger/S.U.S-Police-Bot",
       "description": "Alternate reality game",
