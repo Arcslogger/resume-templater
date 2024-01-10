@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@300;400;500;600;700&display=swap");
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1,2&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -21,10 +22,10 @@
     @apply text-dawn-text font-semibold;
   }
   a {
-    @apply text-dawn-iris transition hover:text-dawn-rose underline;
+    @apply text-dawn-iris transition hover:text-dawn-rose underline decoration-dashed decoration-2 decoration-dawn-irisBright/50;
   }
   blockquote {
-    @apply mb-8 border-l-4 pl-4 text-xl font-medium italic text-dawn-subtle;
+    @apply mb-8 border-l-4 pl-4 text-xl font-medium  text-dawn-subtle;
   }
   code {
     @apply mx-0.5 rounded-md border border-dawn-muted bg-dawn-surface py-0.5 px-2 text-sm font-medium shadow-md;
@@ -43,6 +44,9 @@
     border-top: medium double #9893a5;
     color: #9893a5;
     text-align: center;
+  }
+  strong {
+    @apply font-[650];
   }
 
   img {

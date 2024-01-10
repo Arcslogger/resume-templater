@@ -28,9 +28,9 @@ const config: Config = {
         },
       },
       fontFamily: {
-        heading: ["Inter", "sans-serif"],
-        mono: ["JetBrains Mono", "ui-monospace"],
-        sans: ["Atkinson Hyperlegible", "sans-serif"],
+        heading: ["General Sans", "sans-serif"],
+        mono: ["Geist Mono", "ui-monospace"],
+        sans: ["General Sans", "sans-serif"],
       },
     },
   },

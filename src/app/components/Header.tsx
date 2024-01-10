@@ -1,11 +1,11 @@
 const Header = () => {
   return (
-    <header className="flex flex-row items-baseline mb-2">
-      <h1 className="text-[2rem] text-dawn-darkText font-medium italic font-heading">
-        wilbur zhang
+    <header className="flex flex-row items-baseline mb-3">
+      <h1 className="-ml-1 text-[2rem] text-dawn-darkText font-[520] italic font-heading">
+        wilbur zhang_
       </h1>
       <span className="grow"></span>
-      <div className="flex flex-row items-center space-x-6 text-base font-medium italic font-heading">
+      <div className="flex flex-row items-center space-x-12 text-[0.9rem] font-[525] font-heading">
         <a
           href="https://www.linkedin.com/in/wilbur-zhang-36873b141/"
           target="_blank"

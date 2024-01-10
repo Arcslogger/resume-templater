@@ -5,36 +5,40 @@ import Markdown from "react-markdown";
 const Experience = () => {
   return (
     <>
-      <h1 className="italic text-[1.3rem] font-semibold col-span-6 mt-1 text-dawn-darkText font-heading">
-        experience
+      <h1 className="text-[1.1rem] font-[550] mt-1 text-dawn-darkText font-heading">
+        experience:
       </h1>
 
       {data.experience
         .filter((experience) => experience.include)
         .map((experience, index) => (
-          <Fragment key={index}>
-            <div
-              key={index}
-              className="flex flex-col col-span-6 font-medium -mt-3"
-            >
+          <div
+            className={`col-span-6 ${index === 0 ? "-mt-1" : "mt-2.5"}`}
+            key={index}
+          >
+            <div key={index} className="flex flex-col font-medium">
               <div className="flex space-x-2">
-                <h2 className="text-[0.875rem] font-sans font-semibold">
+                <a
+                  href={experience.href || ""}
+                  target="_blank"
+                  className="text-[0.9rem] font-sans font-semibold"
+                >
                   {experience.organization}
-                </h2>
-                <p className="ml-2 font-sans text-[0.875rem] font-medium">
+                </a>
+                <p className="ml-2 font-sans text-[0.9rem] font-[550]">
                   {experience.position}
                 </p>
                 <span className="grow"></span>
-                <p className="font-sans text-[0.875rem] font-medium text-dawn-subtle">
+                <p className="font-sans text-[0.9rem] font-medium text-dawn-subtle">
                   {experience.duration}
                 </p>
               </div>
-              <span className="text-[0.75rem] font-mono font-medium text-dawn-subtle italic mt-0.5">
+              <span className="text-[0.8rem] font-mono font-semibold text-dawn-subtle mt-1">
                 {experience.technologies}
               </span>
             </div>
-            <div className="flex flex-col col-span-6 font-sans text-[0.875rem] ml-4 -mt-3.5">
-              <ul>
+            <div className="flex flex-col font-[525] font-sans text-[0.75rem] ml-4 mt-1">
+              <ul className="leading-[1.4]">
                 {experience.responsibilities.map((li, index) => (
                   <li key={index}>
                     <Markdown>{li}</Markdown>
@@ -42,7 +46,7 @@ const Experience = () => {
                 ))}
               </ul>
             </div>
-          </Fragment>
+          </div>
         ))}
     </>
   );

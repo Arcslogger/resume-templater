@@ -1,86 +1,103 @@
 {
   "experience": [
     {
-			"include": true,
+      "include": true,
       "organization": "ETHGlobal",
+      "href": "https://ethglobal.com/",
+      "position":"Fullstack Engineering Intern",
       "duration": "Sept - Dec 2023",
-      "technologies": "React, TypeScript, Apollo GraphQL, PostgreSQL, Prisma, Next.js 13",
+      "technologies": "Apollo GraphQL, PostgreSQL, Prisma, Next.js, Tailwind CSS, TypeScript",
       "responsibilities": [
-        "Automated sponsorship prize creation using custom image generation implemented through React, Prisma, and Open Graph, reducing time spent on internal workloads by **>90%**",
-        "Consolidated 3 separate ticketed products into a unified event pass, increasing attendee check-in speed by 60%",
-        "Developed and launched a forum displaying 200+ community side events to increase attendance by 30%",
-        "Refactored forms to use React Hook Form and a custom component library to remove 10k+ lines of redundant code"
+        "Refactored legacy API resolvers and frontend integration to build a completely self-serve prize distribution system for event sponsors, used to create over **$1M in prizes** given to **3k+ users**, while reducing internal support needed by **16 hours** per hackathon",
+        "Migrated the [ethglobal.com](https://ethglobal.com/) codebase to Next.js 13 and a standardized component library, optimizing load times by **50%** and removing **4000+ lines** of repeated code"
       ]
     },
     {
-			"include": true,
+      "include": true,
       "organization": "ETHGlobal",
+      "href": "https://ethglobal.com/",
       "position": "Frontend Engineering Intern",
       "duration": "Jan - Apr 2023",
-      "technologies": "React, Tailwind, TypeScript, Node.js, Figma, Linear",
+      "technologies": "React, Tailwind CSS, TypeScript, Node.js, Figma, Git",
       "responsibilities": [
-        "Designed and implemented a new dashboard navigation system using React's Context API, Reducers, and Apollo GraphQL, shipped to 10k+ users over 30 products and reduced project submission delays by over 80%",
-        "Developed and deployed ethglobal.com/perks, soft-launching with over 100+ initial signups",
+        "Designed and implemented a new hackathon dashboard navigation system using React's Context API, Reducers, and Apollo GraphQL, shipped to **10k+ users over 30 products** and reduced project submission delays by over **80%**",
+        "Developed and deployed [ethglobal.com/perks](https://ethglobal.com/perks), soft-launching with over **100+ initial signups**",
         "Created project outlines, case studies, and user flows in Figma and Linear, reducing development time by 50%"
       ]
     },
     {
-			"include": true,
+      "include": true,
+      "organization": "Ontario Institute for Cancer Research",
+      "href": "https://www.wilburzhang.com/objects/dimsum-qc-dashboard",
+      "position": "Frontend Engineering Intern",
+      "duration": "May - Aug 2022",
+      "technologies": "TypeScript, Tailwind CSS, Spring Boot, Java, REST, Figma, Git",
+      "responsibilities": [
+        "Designed and built a user interface that streamlines internal operation procedures using TypeScript and Figma, shortening time spent on quality control from **3 hours to < 5 minutes**",
+        "Implemented filtering and sorting APIs in Spring Boot to create high-fidelity dashboard viewing controls",
+        "Collaborated with 10 other lab technicians to conduct user research on future project requirements and scope"
+      ]
+    },
+    {
+      "include": true,
       "organization": "Hack the North",
+      "href": "https://www.wilburzhang.com/objects/hack-the-north",
       "position": "Graphics Designer",
       "duration": "Mar - Sep 2022",
       "technologies": "Figma, Procreate, Adobe Photoshop",
       "responsibilities": [
         "Collaborated with engineers and product vendors to deliver apparel and poster designs for over 1000+ attendees",
-        "Created social media posts and website hero illustrations seen by 80k+ unique visitors from 100+ countries"
-      ]
-    },
-    {
-			"include": true,
-      "organization": "Ontario Institute for Cancer Research",
-      "position": "Frontend Engineering Intern",
-      "duration": "May - Aug 2022",
-      "technologies": "Typescript, Tailwind, Spring Boot, Java, REST, Figma",
-      "responsibilities": [
-        "Designed and built a user interface that streamlines internal operation procedures using Typescript & Figma, reducing time spent on quality control from 3 hours to < 5 minutes",
-        "Implemented filtering and sorting APIs in Spring Boot to create high-fidelity dashboard viewing controls",
-        "Collaborated with 10 other lab technicians to conduct user research on future project requirements and scope"
+        "Created social media posts and website hero illustrations seen by **80k+ unique visitors** from **100+ countries**"
       ]
     }
   ],
   "projects": [
     {
-			"include": true,
-      "name": "Lodestone",
-			"link": "https://github.com/Lodestone-Team/lodestone",
-      "description": "Game server hosting wrapper",
-      "technologies": "Figma, React, TanStack Router, Storybook",
+      "include": true,
+      "duration": "2023 - ongoing",
+      "name": "The Home Project",
+      "link": "https://thehomeproj.com",
+      "description": "Documentary website",
+      "technologies": "Next.js, Tailwind CSS, Vercel, Figma",
       "highlights": [
-        "Created Compass DLS, a comprehensive design system with over 100+ components and 40+ styles",
-        "Implemented React components with Tailwind and Storybook, and helped QC over 30 dashboard pages",
-        "Led initial launch marketing, gaining over 500+ Github stars and 100+ regular users within 6 months"
+        "An ongoing collection of photos, essays and drawings about places I've previously lived in, organized by room and house level",
+        "Prototyped in Figma, built using Next.js 14 and hosted on Vercel, with photos mostly taken with a [Fujifilm x100f](https://www.amazon.ca/Fujifilm-X100F-APS-C-Digital-Camera-Silver/dp/B01N33CT3Z?th=1)"
       ]
     },
     {
-			"include": true,
-      "name": "Timeline",
-			"link": "https://github.com/Arcslogger/TimeLine",
-      "description": "Business Wait-time indicator",
-      "technologies": "Python, Flask, Javascript, HTML/CSS",
+      "include": true,
+      "duration": "Dec 2022",
+      "name": "Lodestone",
+      "link": "https://github.com/Lodestone-Team/lodestone",
+      "description": "Game server hosting wrapper",
+      "technologies": "Figma, React, TanStack Router, Storybook",
       "highlights": [
-        "A Javascript web app that uses crowdsourced foot traffic data to display businesses with minimal wait times",
-        "Designed the logo and branding using Procreate to win the Explore Hacks 2021 Runner-Up out of 58 teams",
+        "Created [Compass DLS](https://www.wilburzhang.com/objects/compass-design-system), a comprehensive design system for Lodestone with over **100+ components and 40+ styles** in Figma",
+        "Integrated design system with our React components, Tailwind and Storybook, helping QC over 30 app pages in the process",
+        "Led initial launch marketing, gaining over **500+ Github stars** and **100+ regular users** within 6 months"
+      ]
+    },
+    {
+      "include": false,
+      "duration": "Jul 2021",
+      "name": "Timeline",
+      "link": "https://github.com/Arcslogger/TimeLine",
+      "description": "Business Wait-time indicator",
+      "technologies": "Python, Flask, JavaScript, HTML/CSS",
+      "highlights": [
+        "A JavaScript web app that uses crowdsourced foot traffic data to list businesses with minimal wait times",
+        "Designed the logo and branding using Procreate to win the **Explore Hacks 2021 Runner-Up** out of 58 teams",
         "Optimized Google Places API backend calls to only fetch necessary data to reduce response time by ~50%"
       ]
     },
     {
-			"include": true,
+      "include": false,
       "name": "S.U.S Police Discord Bot",
-			"link": "https://github.com/Arcslogger/S.U.S-Police-Bot",
+      "link": "https://github.com/Arcslogger/S.U.S-Police-Bot",
       "description": "Alternate reality game",
       "technologies": "discord.py, JSON, AWS",
       "highlights": [
-        "A Python discord bot used to host an alternate reality game serving 200+ users",
+        "A Python discord bot used to host an alternate reality game that served **200+ users** at its peak",
         "Assets developed in Procreate and deployed through AWS EC2, with JSON files used to store guild and user data"
       ]
     }

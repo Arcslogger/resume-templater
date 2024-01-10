@@ -5,31 +5,38 @@ import Markdown from "react-markdown";
 const Projects = () => {
   return (
     <>
-      <h1 className="italic text-[1.3rem] font-semibold col-span-6 text-dawn-darkText mt-2 font-heading">
-        projects
+      <h1 className="text-[1.1rem] font-[550] text-dawn-darkText mt-2 font-heading">
+        projects:
       </h1>
 
       {data.projects
         .filter((project) => project.include)
         .map((project, index) => (
-          <Fragment key={index}>
-            <div className="flex flex-col col-span-6 font-semibold">
-              <div className="flex space-x-2 -mt-3">
+          <div
+            className={`col-span-6 ${index === 0 ? "-mt-1" : "mt-2.5"}`}
+            key={index}
+          >
+            <div className=" flex flex-col font-semibold">
+              <div className="flex space-x-2">
                 <a href={project.link} target="_blank">
-                  <h2 className="text-[0.875rem] font-sans font-semibold">
+                  <h2 className="text-[0.9rem] font-sans font-semibold">
                     {project.name}
                   </h2>
                 </a>
-                <p className="font-sans text-[0.875rem] font-medium">
+                <p className="font-sans text-[0.9rem] font-[550]">
                   {project.description}
                 </p>
+                <span className="flex-grow" />
+                <p className="font-sans text-[0.9rem] font-medium text-dawn-subtle">
+                  {project.duration}
+                </p>
               </div>
-              <span className="text-[0.75rem] font-mono font-medium text-dawn-subtle italic mt-0.5">
+              <span className="text-[0.8rem] font-mono font-semibold text-dawn-subtle mt-1">
                 {project.technologies}
               </span>
             </div>
-            <div className="flex flex-col col-span-6 font-sans text-[0.875rem] ml-4 -mt-3.5">
-              <ul>
+            <div className="flex flex-col font-[525] font-sans text-[0.75rem] ml-4 mt-1">
+              <ul className="leading-[1.4]">
                 {project.highlights.map((li, index) => (
                   <li key={index}>
                     <Markdown>{li}</Markdown>
@@ -37,7 +44,7 @@ const Projects = () => {
                 ))}
               </ul>
             </div>
-          </Fragment>
+          </div>
         ))}
     </>
   );
