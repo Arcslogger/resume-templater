@@ -1,11 +1,10 @@
 import data from "@/../data.json";
-import { Fragment } from "react";
 import Markdown from "react-markdown";
 
 const Projects = () => {
   return (
     <>
-      <h1 className="text-[1.1rem] font-[550] text-dawn-darkText mt-2 font-heading">
+      <h1 className="text-[1.1rem] font-[550] text-dawn-darkText font-heading -my-1">
         projects:
       </h1>
 
@@ -13,7 +12,7 @@ const Projects = () => {
         .filter((project) => project.include)
         .map((project, index) => (
           <div
-            className={`col-span-6 ${index === 0 ? "-mt-1" : "mt-2.5"}`}
+            className={`col-span-6 ${index === 0 ? "-mt-1" : "-mt-0.5"}`}
             key={index}
           >
             <div className=" flex flex-col font-semibold">
@@ -31,7 +30,7 @@ const Projects = () => {
                   {project.duration}
                 </p>
               </div>
-              <span className="text-[0.8rem] font-mono font-semibold text-dawn-subtle mt-1">
+              <span className="text-[0.75rem] font-mono font-semibold text-dawn-subtle mt-1">
                 {project.technologies}
               </span>
             </div>

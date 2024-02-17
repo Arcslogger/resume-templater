@@ -5,11 +5,12 @@
       "organization": "ETHGlobal",
       "href": "https://ethglobal.com/",
       "position":"Fullstack Engineering Intern",
-      "duration": "Sept - Dec 2023",
-      "technologies": "Apollo GraphQL, PostgreSQL, Prisma, Next.js, Tailwind CSS, TypeScript",
+      "duration": "Sep - Dec 2023",
+      "technologies": "Next.js, TypeScript, TailwindCSS, Apollo GraphQL, PostgreSQL, Prisma, Grafana, GCP",
       "responsibilities": [
-        "Refactored legacy API resolvers and frontend integration to build a completely self-serve prize distribution system for event sponsors, used to create over **$1M in prizes** given to **3k+ users**, while reducing internal support needed by **16 hours** per hackathon",
-        "Migrated the [ethglobal.com](https://ethglobal.com/) codebase to Next.js 13 and a standardized component library, optimizing load times by **50%** and removing **4000+ lines** of repeated code"
+        "Designed and built a self-serve prize distribution API and frontend with Apollo GraphQL, Prisma, and Next.js, used by **77 companies** to create over **$1M in prizes** given to **3k+ users** over 4 months, while reducing internal support needed by **16 hours** per hackathon",
+        "Upgraded the [ethglobal.com](https://ethglobal.com/) codebase to Next.js 13 and a standardized component library, optimizing load times by **50%**",
+        "Parallelized frontend queries and backend resolver data fetching to **optimize query load times by 90%**"
       ]
     },
     {
@@ -18,11 +19,11 @@
       "href": "https://ethglobal.com/",
       "position": "Frontend Engineering Intern",
       "duration": "Jan - Apr 2023",
-      "technologies": "React, Tailwind CSS, TypeScript, Node.js, Figma, Git",
+      "technologies": "React, TypeScript, Tailwind CSS, Node.js, Figma, Git, Sentry, RainbowKit",
       "responsibilities": [
-        "Designed and implemented a new hackathon dashboard navigation system using React's Context API, Reducers, and Apollo GraphQL, shipped to **10k+ users over 30 products** and reduced project submission delays by over **80%**",
-        "Developed and deployed [ethglobal.com/perks](https://ethglobal.com/perks), soft-launching with over **100+ initial signups**",
-        "Created project outlines, case studies, and user flows in Figma and Linear, reducing development time by 50%"
+        "Designed and implemented a new dashboard navigation interface unifying pages between 3 different products using React and Apollo GraphQL, shipped to **10k+ users** and **30 hackathon events**",
+        "Overhauled hackathon project submission form UX with an autosaving interactive project builder prototyped in Figma, eliminating incomplete submission data and **reducing video upload errors by 90%**",
+        "Designed and deployed [ethglobal.com/perks](https://ethglobal.com/perks), soft-launching with over **100+ initial signups**"
       ]
     },
     {
@@ -31,7 +32,7 @@
       "href": "https://www.wilburzhang.com/objects/dimsum-qc-dashboard",
       "position": "Frontend Engineering Intern",
       "duration": "May - Aug 2022",
-      "technologies": "TypeScript, Tailwind CSS, Spring Boot, Java, REST, Figma, Git",
+      "technologies": "TypeScript, HTML, Tailwind CSS, Spring Boot, Java, REST, Figma, Git, Linux",
       "responsibilities": [
         "Designed and built a user interface that streamlines internal operation procedures using TypeScript and Figma, shortening time spent on quality control from **3 hours to < 5 minutes**",
         "Implemented filtering and sorting APIs in Spring Boot to create high-fidelity dashboard viewing controls",
@@ -54,7 +55,20 @@
   "projects": [
     {
       "include": true,
-      "duration": "2023 - ongoing",
+      "duration": "Dec 2021 - Jan 2023",
+      "name": "Lodestone",
+      "link": "https://github.com/Lodestone-Team/lodestone",
+      "description": "Game server hosting wrapper",
+      "technologies": "TypeScript, React, Rust, Tauri, Storybook, Figma",
+      "highlights": [
+        "Created [Compass DLS](https://www.wilburzhang.com/objects/compass-design-system), a comprehensive design system for Lodestone with over **100+ components and 40+ styles** in Figma",
+        "Integrated design system with our React components, Tailwind and Storybook, helping QC over 30 app pages in the process",
+        "Led initial launch marketing, gaining over **500+ Github stars** and **600+ daily users** within 6 months"
+      ]
+    },
+    {
+      "include": true,
+      "duration": "Sep 2023 - present",
       "name": "The Home Project",
       "link": "https://thehomeproj.com",
       "description": "Documentary website",
@@ -66,26 +80,13 @@
     },
     {
       "include": true,
-      "duration": "Dec 2022",
-      "name": "Lodestone",
-      "link": "https://github.com/Lodestone-Team/lodestone",
-      "description": "Game server hosting wrapper",
-      "technologies": "Figma, React, TanStack Router, Storybook",
-      "highlights": [
-        "Created [Compass DLS](https://www.wilburzhang.com/objects/compass-design-system), a comprehensive design system for Lodestone with over **100+ components and 40+ styles** in Figma",
-        "Integrated design system with our React components, Tailwind and Storybook, helping QC over 30 app pages in the process",
-        "Led initial launch marketing, gaining over **500+ Github stars** and **100+ regular users** within 6 months"
-      ]
-    },
-    {
-      "include": false,
       "duration": "Jul 2021",
       "name": "Timeline",
       "link": "https://github.com/Arcslogger/TimeLine",
       "description": "Business Wait-time indicator",
-      "technologies": "Python, Flask, JavaScript, HTML/CSS",
+      "technologies": "Python, Flask, JavaScript, HTML/CSS, Google Places API",
       "highlights": [
-        "A JavaScript web app that uses crowdsourced foot traffic data to list businesses with minimal wait times",
+        "A JavaScript/Python web app that uses crowdsourced foot traffic data to list businesses with minimal wait times",
         "Designed the logo and branding using Procreate to win the **Explore Hacks 2021 Runner-Up** out of 58 teams",
         "Optimized Google Places API backend calls to only fetch necessary data to reduce response time by ~50%"
       ]
@@ -101,5 +102,9 @@
         "Assets developed in Procreate and deployed through AWS EC2, with JSON files used to store guild and user data"
       ]
     }
-  ]
+  ], 
+  "skills": {
+    "Languages": "TypeScript, JavaScript, SQL, Java, C++, Bash, Python, Rust",
+    "Tools": "React, NextJS, Tailwind CSS, Vercel, Svelte, PlanetScale, AWS, GCP, Prisma, Sentry, Tauri, Grafana, Apollo GraphQL, Spring Boot, Git, Figma, Adobe Creative Suite, Unity, Blender"
+  }
 }

@@ -1,7 +1,7 @@
 const Education = () => {
   return (
     <>
-      <h1 className="text-[1.1rem] col-span-6 text-dawn-darkText mt-2 -mb-1 font-heading font-[550]">
+      <h1 className="text-[1.1rem] col-span-6 text-dawn-darkText -mt-1 -mb-2 font-heading font-[550]">
         education:
       </h1>
       <div className="flex flex-col col-span-2 font-semibold">
@@ -9,16 +9,16 @@ const Education = () => {
           University of Waterloo
         </h2>
         <p className="font-sans text-[0.75rem] font-[550]">
-          B. Computer Science
+          B. Comp Sci; Fine Arts Studio Minor
         </p>
         <p className="font-sans text-[0.75rem] font-[550] text-dawn-subtle">
-          2021 - 2026 (expected)
+          2021 - 2026
         </p>
       </div>
       <div className="flex flex-col col-span-4 font-sans text-[0.75rem] font-[525] leading-[1.4]">
         Algorithms (C++), Operating Systems (C++), Data Structures and Data
-        Management (C++), Object-Oriented Software Development (C++), Functional
-        Programs (Racket), Art History and Visual Culture
+        Management (C++), Object-Oriented Software Development (C++/SQL),
+        Functional Programs (Racket), Art History and Visual Culture
       </div>
     </>
   );
