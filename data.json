@@ -20,11 +20,11 @@
       "href": "https://ethglobal.com/",
       "position": "Frontend Engineering Intern",
       "duration": "Jan - Apr 2023",
-      "technologies": "React, TypeScript, Tailwind CSS, Node.js, Figma, Git, Sentry, RainbowKit",
+      "technologies": "React, TypeScript, Tailwind CSS, Node.js, Figma, Git, Sentry, Python",
       "responsibilities": [
         "Designed and implemented a new dashboard navigation interface unifying pages between 3 different products using React and Apollo GraphQL, shipped to **10k+ users** and **30 hackathon events**",
         "Overhauled hackathon project submission form UX with an autosaving interactive project builder prototyped in Figma, eliminating incomplete submission data and **reducing video upload errors by 90%**",
-        "Implemented a signup list for [ethglobal.com/packs](https://ethglobal.com/packs) launching with over **200+ initial responses**"
+        "Automated nametag printing with scripts implemented in Python and Node.js, used to make over **8000+ badges** for attendees"
       ]
     },
     {
