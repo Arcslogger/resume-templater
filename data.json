@@ -8,9 +8,10 @@
       "duration": "Sep - Dec 2023",
       "technologies": "Next.js, TypeScript, TailwindCSS, Apollo GraphQL, PostgreSQL, Prisma, Grafana, GCP",
       "responsibilities": [
-        "Designed and built a self-serve prize distribution API and frontend with Apollo GraphQL, Prisma, and Next.js, used by **77 companies** to create over **$1M in prizes** given to **3k+ users** over 4 months, while reducing internal support needed by **16 hours** per hackathon",
-        "Upgraded the [ethglobal.com](https://ethglobal.com/) codebase to Next.js 13 and a standardized component library, optimizing load times by **50%**",
-        "Parallelized frontend queries and backend resolver data fetching to **optimize query load times by 90%**"
+        "Designed and built a self-serve prize distribution frontend used by over **77 sponsors** over four months",
+				"Wrote prize distribution APIs handling over **$1M+ USDC** and **10k+** users while reducing internal processes by **16 hours** per event",
+        "Parallelized frontend queries and backend resolver data fetching to **optimize query response times by 90%**",
+        "Refactored Next.js app to maximize server-side rendering use, **decreasing page load time by up to  78%**"
       ]
     },
     {
@@ -23,7 +24,7 @@
       "responsibilities": [
         "Designed and implemented a new dashboard navigation interface unifying pages between 3 different products using React and Apollo GraphQL, shipped to **10k+ users** and **30 hackathon events**",
         "Overhauled hackathon project submission form UX with an autosaving interactive project builder prototyped in Figma, eliminating incomplete submission data and **reducing video upload errors by 90%**",
-        "Designed and deployed [ethglobal.com/perks](https://ethglobal.com/perks), soft-launching with over **100+ initial signups**"
+        "Implemented a signup list for [ethglobal.com/packs](https://ethglobal.com/packs) launching with over **200+ initial responses**"
       ]
     },
     {

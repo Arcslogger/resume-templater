@@ -16,9 +16,9 @@ const Education = () => {
         </p>
       </div>
       <div className="flex flex-col col-span-4 font-sans text-[0.75rem] font-[525] leading-[1.4]">
-        Algorithms (C++), Operating Systems (C++), Data Structures and Data
-        Management (C++), Object-Oriented Software Development (C++/SQL),
-        Functional Programs (Racket), Art History and Visual Culture
+        Databases (SQL/Java), Algorithms (C++), Operating Systems (C++), Data
+        Structures and Data Management (C++), Object-Oriented Software
+        Development (C++), History of Computing, Art History and Visual Culture
       </div>
     </>
   );
