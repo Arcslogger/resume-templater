@@ -41,7 +41,7 @@
       ]
     },
     {
-      "include": true,
+      "include": false,
       "organization": "Hack the North",
       "href": "https://www.wilburzhang.com/objects/hack-the-north",
       "position": "Graphics Designer",
@@ -50,6 +50,18 @@
       "responsibilities": [
         "Collaborated with engineers and product vendors to deliver apparel and poster designs for over 1000+ attendees",
         "Created social media posts and website hero illustrations seen by **80k+ unique visitors** from **100+ countries**"
+      ]
+    },
+		{
+      "include": true,
+      "organization": "Triway Education",
+      "href": "https://www.wilburzhang.com/objects/hack-the-north",
+      "position": "Competitive Programming Tutor",
+      "duration": "April 2020 - Sept 2021",
+      "technologies": "Java, Google Suites, Microsoft Office",
+      "responsibilities": [
+        "Developed a curriculum with topics ranging from Java OOP, graph theory, greedy algorithms and dynamic programming",
+        "Delivered classes online to more than 70+ students with 150% better contest scores"
       ]
     }
   ],
